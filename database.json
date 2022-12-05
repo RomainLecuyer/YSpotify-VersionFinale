@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "nickname": "Chaos",
+      "password": "P@ssword",
+      "access_token": null,
+      "refresh_token": null,
+      "currentGroup": 0,
+      "spotifyNickname": "Chaos"
+    },
+    {
+      "id": 1,
+      "nickname": "Ewan",
+      "password": "P@ssword",
+      "access_token": null,
+      "refresh_token": null,
+      "currentGroup": 1,
+      "spotifyNickname": "Ewan"
+    },
+    {
+      "id": 2,
+      "nickname": "romain",
+      "password": "P@ssword",
+      "access_token": null,
+      "refresh_token": null,
+      "currentGroup": 0,
+      "spotifyNickname": "romain"
+    }
+  ],
+  "groups": [
+    {
+      "id": 0,
+      "name": "G1",
+      "memberList": [0,2],
+      "ownerId": 0
+    },
+    {
+      "id": 1,
+      "name": "G2",
+      "memberList": [1],
+      "ownerId": 1
+    }
+  ]
+}
